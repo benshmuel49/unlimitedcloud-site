@@ -1,0 +1,356 @@
+.body {
+  margin: 0;
+  margin: top 0;
+   background-color: #57c0db;
+   
+}
+.mobile-container{
+  visibility: hidden;
+  
+}
+#unlimitedcloud{
+  background-color: #56c0db;
+  color: #000;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.start {
+  background-color: #57c0db;
+  margin: 0%;visibility: hidden;
+  padding: 0px;visibility: hidden;
+  height: 12vh;visibility: hidden;
+  visibility: unset;
+  
+}
+
+.logo {
+  width: fit-content;
+  font-family: monospace;
+  color: unset;
+  background-attachment: fixed;
+  text-transform: uppercase;
+  margin: 3px;
+}
+
+.main {
+  width: fit-content;
+  font-family: monospace;
+  color: unset;
+  background-attachment: fixed;
+  text-transform: uppercase;
+  margin: 3px;
+}
+.logo:hover {
+  color: white;
+  text-transform: uppercase;
+}
+.info-button {
+  width: fit-content;
+  margin: 10px;
+  padding: 2rem 5rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.6rem;
+  background-color: rgba(34, 113, 204, 0.534);
+  transition: all 0.3s ease;
+  border: #6097bf 1px solid;
+  text-transform: uppercase;
+  margin: 10px;
+
+}
+
+ul {
+  margin: 0;
+  padding: revart;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+
+.hero-container {
+  display: flex;
+  font-family: monospace;
+  color: #fffded;
+  width: fit-content;
+  margin: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #57c0db;
+  margin:0px;
+  padding: 10px;
+  width: 100vw;
+  align-items: center;
+}
+#down {
+  margin: inherit;
+  background-color: rgb(255 235 73);
+  color: #131314;
+}
+#theidea {
+  font-family: monospace;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: -webkit-center;
+  margin: 0px;
+  padding: 0px;
+  height: 97vh;
+  justify-content: center;
+  background-color: #3c92ca;
+  list-style: 0px;
+}
+
+#pr2 {
+  font-family: monospace;
+  text-shadow: #131314;
+}
+
+.hr {
+  margin: 0%;
+  padding: 100%;
+}
+
+.flip-card {
+  display: flex;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: fixed;
+  border-radius: 50%;
+  width: 300vh;
+  height: 300vh;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #57c0db;
+  color: black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #57c0db;
+  color: black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  transform: rotateY(180deg);
+}
+
+.flip-cards-container {
+  .flip-cards-container 
+    background: white;
+    font-family: monospace;
+    text-transform: uppercase;
+    text-align: center;
+    height: 165vh;} 
+    
+.flip-cards {
+  display: flex;
+  font-family: monospace;
+  height: 146vh;
+  flex-direction: column;
+  border-spacing: 100\; justify-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+}
+.hire-me {
+    background: #6097bf;
+    height: 30vh;
+    width: 90vw;
+    /* margin: 200px; */
+    /* display: flex; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+    margin: 10px;
+    padding: 2rem 5rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: white;
+    
+    letter-spacing: 0.6rem;
+    background-color: rgb(167 169 172);
+    transition: all 0.3s ease;
+    border: #ecf0f1 1px solid;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+    margin-top: 16%;
+
+  padding: 2rem 5rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: white;
+  
+  letter-spacing: 0.6rem;
+  background-color: rgb(167 169 172);
+  transition: all 0.3s ease;
+  border: #ecf0f1 1px solid;
+  text-transform: uppercase;
+}
+.contact {
+  color: black;
+  margin: 0px;
+  height: 5vh;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100vw;
+
+  font-family: "Times New Roman", Times, serif;
+}
+#follow {
+  margin: 0px;
+  color: #3c92ca;
+  font-family: inherit;
+  letter-spacing: 0.1cm;
+  height: 18vh;
+}
+.social-icon {
+  width: 90vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  width: 98%;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px)
+{ 
+
+#unlimitedcloud{
+  height: 60px;
+}
+
+  .info-button{
+    width: fit-content;
+    margin: 10px;
+    padding: 2rem 5rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: white;
+   
+    letter-spacing: 0.6rem;
+    background-color: rgba(34, 113, 204, 0.534);
+    transition: all 0.3s ease;
+    border: #6097bf 1px solid;
+    text-transform: uppercase;
+    margin: 10px;
+    margin-left: -25%;
+  }
+  #follow {
+    margin: 10px;
+    color: #3c92ca;
+    font-family: inherit;
+    letter-spacing: 0.1cm;
+    font-size: larger;
+    height: 18vh;
+}
+.start {
+  background-color: #57c0db;
+  margin: 0%;
+  padding: 17px;
+  font-family: sans-serif;
+  visibility: hidden;
+  height: 17vh;}
+
+
+
+
+
+<style>   body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .mobile-container {
+      max-width: 480px;
+      margin: auto;
+      color: #56c0db;
+      visibility: inherit;
+    }
+    
+    .topnav {
+      overflow: scroll;
+      background-color: #56c0db;
+      position: initial;
+      display: flex;
+  flex-direction: column-reverse;
+    }
+    
+    .topnav #myLinks {
+      font-size: 10px;
+      display: block;
+      width: 131px;
+      font-family: 'Courier New', Courier, monospace;
+      
+    }
+    
+    .topnav a {
+      color: white;
+    
+    font-size: 43px;
+    margin-left: 87%;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    
+    .topnav a.icon {
+      background: #56c0db;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    .topnav a:hover {
+      background-color: #56c0db;
+      color: black;
+  }
+    
+    
+    .active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    </style>
+    </head>
+
+  }
