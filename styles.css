@@ -173,8 +173,8 @@ ul {
 }
 
 .flip-cards-container {
-  .flip-cards-container 
-    background: white;
+  
+  background-color: #57c0db;
     font-family: monospace;
     text-transform: uppercase;
     text-align: center;
@@ -183,9 +183,9 @@ ul {
 .flip-cards {
   display: flex;
   font-family: monospace;
-  height: 146vh;
+  height: 170vh;
   flex-direction: column;
-  border-spacing: 100\; justify-content: space-around;
+  border-spacing: 100; 
   justify-content: space-around;
   align-items: center;
 }
@@ -203,7 +203,7 @@ ul {
     display: inline-block;
     font-size: 1.6rem;
     text-transform: uppercase;
-    color: white;
+    color: #000000;
     
     letter-spacing: 0.6rem;
     background-color: rgb(167 169 172);
@@ -237,7 +237,7 @@ ul {
 }
 #follow {
   margin: 0px;
-  color: #3c92ca;
+  color: #000000;
   font-family: inherit;
   letter-spacing: 0.1cm;
   height: 18vh;
@@ -251,11 +251,23 @@ ul {
   justify-content: center;
 }
 
-@media only screen and (max-width: 768px)
-{ 
+@media only screen and (max-width: 768px){
+  
+#cloudimg{
+  height: 380px;
+}
 
+
+.hero-container{
+  margin-bottom: 0%;
+  margin-top: -54%;
+
+}
+
+
+  
 #unlimitedcloud{
-  height: 60px;
+  height: 840px; ;
 }
 
   .info-button{
@@ -273,7 +285,7 @@ ul {
     border: #6097bf 1px solid;
     text-transform: uppercase;
     margin: 10px;
-    margin-left: -25%;
+    
   }
   #follow {
     margin: 10px;
